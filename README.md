@@ -78,6 +78,8 @@ https://www.youtube.com/watch?v=EkXcReAeGdM&ab_channel=BASIRALab
 https://link.springer.com/chapter/10.1007/978-3-030-87589-3_15
 
 # Please cite the following paper when using StairwayGraphNet:
+
+```latex
 @InProceedings{Mhiri2021StairwayGraphnet,
 author="Mhiri, Islem and Mahjoub, Mohamed Ali and Rekik, Islem",
 editor="Lian, Chunfeng and Cao, Xiaohuan and Rekik, Islem and Xu, Xuanang and Yan, Pingkun",
@@ -87,6 +89,7 @@ year="2021",
 publisher="Springer International Publishing",
 pages="140--150",
 }
+```
 
 # License
 Our code is released under MIT License (see LICENSE file for details).
