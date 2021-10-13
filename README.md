@@ -77,6 +77,10 @@ https://www.youtube.com/watch?v=EkXcReAeGdM&ab_channel=BASIRALab
 
 https://link.springer.com/chapter/10.1007/978-3-030-87589-3_15
 
+# StairwayGraphNet on arXiv
+
+https://arxiv.org/abs/2110.04279
+
 # Please cite the following paper when using StairwayGraphNet:
 
 ```latex
