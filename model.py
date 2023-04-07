@@ -154,7 +154,7 @@ class Discriminator2(torch.nn.Module):
         x = self.conv211(x)
         x = F.relu(x)
         x = F.dropout(x, training=self.training)
-        x1 = F.relu(self.conv222(self.conv22(x, edge_index, gen_input)))
+        x1 = F.relu(self.conv222(self.conv22(x, edge_index)))
 
         return F.sigmoid(x1)
         

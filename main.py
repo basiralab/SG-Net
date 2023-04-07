@@ -94,8 +94,7 @@ for train_index, test_index in kf.split(source_data):
     # print( * "#" + " FOLD " + str(fold) + " " +  * "#")
     X_train_source, X_test_source, X_train_target1, X_test_target1, X_train_target2, X_test_target2 = source_data[train_index], source_data[test_index], target_data1[train_index], target_data1[test_index], target_data2[train_index], target_data2[test_index]
 
-    predicted_test1, data_target1,predicted_test2, data_target2, source_test, l1_test1, eigenvector_test1, l1_test2, eigenvector_test2 = StairwayGraphNet(X_train_source, X_test_source, X_train_target1, X_test_target1, X_train_target2, X_test_target2)
-
+    source_test, predicted_test1, data_target1, l1_test1, eigenvector_test1, predicted_test2, data_target2, l1_test2, eigenvector_test2 = StairwayGraphNet(X_train_source, X_test_source, X_train_target1, X_test_target1, X_train_target2, X_test_target2)
 
 
 

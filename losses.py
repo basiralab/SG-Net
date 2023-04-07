@@ -12,7 +12,6 @@ from torch_geometric.nn import NNConv, BatchNorm
 import argparse
 from scipy.stats import wasserstein_distance
 from torch.distributions import normal, kl
-from module_vgae import*
 
 
 
